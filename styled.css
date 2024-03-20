@@ -26,6 +26,9 @@
     cursor: pointer;
     font-size: 19.2px; 
     align-items: center;
+        text-align: center;
+        justify-content: center;
+        background-position: center center;
     transition: background-color 0.3s ease;
     }
 
