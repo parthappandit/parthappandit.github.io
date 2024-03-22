@@ -60,13 +60,12 @@ body {
 
 nav {
 
-    background-image: linear-gradient(rgb(255, 166, 0),black);
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 1000;
+   background: linear-gradient(182deg, #ff0000, #2600ff, #ff6600);
+        background-size: 800% 800%;
+    
+        -webkit-animation: AnimationName 59s ease infinite;
+        animation: AnimationName 59s ease infinite;
+    
 }
 
 nav a {
@@ -478,3 +477,14 @@ footer a:hover {
         margin-top: 20px; 
     }
 }
+    @-webkit-keyframes AnimationName {
+        0%{background-position:48% 0%}
+        50%{background-position:53% 100%}
+        100%{background-position:48% 0%}
+    }
+    @keyframes AnimationName {
+        0%{background-position:48% 0%}
+        50%{background-position:53% 100%}
+        100%{background-position:48% 0%}
+    }
+       
