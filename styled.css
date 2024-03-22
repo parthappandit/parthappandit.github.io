@@ -310,7 +310,7 @@ h2 {
 
 .contact-form {
      background-image:linear-gradient(green,black);
-     background: #000;
+     
     display: flex;
     align-items: center;
     justify-content: center;
