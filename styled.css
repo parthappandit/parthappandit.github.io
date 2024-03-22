@@ -63,8 +63,14 @@ nav {
    background: linear-gradient(182deg, #ff0000, #2600ff, #ff6600);
         background-size: 800% 800%;
     
-        -webkit-animation: AnimationName 59s ease infinite;
-        animation: AnimationName 59s ease infinite;
+        -webkit-animation: AnimationName 10s ease infinite;
+        animation: AnimationName 10s ease infinite;\
+       padding: 10px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1000;
     
 }
 
