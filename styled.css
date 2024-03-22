@@ -299,7 +299,9 @@ h2 {
     line-height: 1.6;
     margin-bottom: 15px;
 }
-
+#about{background-image:
+    radial-gradient(circle at top right, #1aa707, rgb(255, 145, 0), #1aa707);
+      }
 #contact {
     text-align: center;
     background-color: #f9f9f9;
@@ -307,6 +309,8 @@ h2 {
 }
 
 .contact-form {
+     background-image:linear-gradient(rgb(21, 104, 21),black);
+     background: #000;
     display: flex;
     align-items: center;
     justify-content: center;
