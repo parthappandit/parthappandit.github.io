@@ -1,25 +1,27 @@
-
-.donate-content{background-image: url('https://images.unsplash.com/photo-1618142990632-1afb1bd67e7c?q=80&w=2150&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="tiger Image');
+.donate-content{
+    background-image: url(https://imgs.search.brave.com/Y6Hc74ww9vSpA_AjW_b5G3f9oBGXLPedGwfKO3ydCeM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzkyLzY3LzE0/LzM2MF9GXzE5MjY3/MTQ5N19EcFNFbzdE/dWcyT292bGlGN0Vq/Y01Vb3Q3cDRzVWJ5/WS5qcGc);
+    background-color: rgb(168, 167, 165);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white;
+    color: rgb(0, 0, 0);
     text-align: center;}
 
     .donate-head{
         font-weight: bold;
-    color: #246d28;
+    color: #000000;
     font-size: 50px;
     }
     .action-button{
-         background-color: #00796b;
-    color: #fff;
+         background-color: #000000;
+    color: hsl(0, 0%, 100%);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -31,22 +33,6 @@
         background-position: center center;
     transition: background-color 0.3s ease;
     }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .heybutton{
     border-radius: 10px;
@@ -60,12 +46,9 @@ body {
 
 nav {
 
-   background: linear-gradient(182deg, #ff0000, #2600ff, #ff6600);
+        background-color: rgb(0, 0, 0);
         background-size: 800% 800%;
-    
-        -webkit-animation: AnimationName 10s ease infinite;
-        animation: AnimationName 10s ease infinite;\
-       padding: 18px;
+        padding: 18px;
         text-align: center;
         position: fixed;
         top: 0;
@@ -77,7 +60,7 @@ nav {
 nav a {
    
     font-weight: bold;
-    color: #14e4d9;
+    color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 18px;
@@ -88,13 +71,13 @@ nav a {
 
 nav a:hover {
     border-radius: 100px 100px 100px 100px;
-    background-color:rgba(0, 121, 107, 0.8);
+    background-color:rgba(27, 27, 27, 0.8);
 }
 
 .logo {
 
     border-radius: 100px 100px 100px 100px;
-    color: white;
+    color: rgb(255, 208, 0);
     font-size: 24px;
     font-weight: bold;
     text-decoration: none;
@@ -129,14 +112,14 @@ nav a:hover {
 /* ==================================== */
 #explore {
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #000000;
     padding: 50px 0;
 }
 
 h2 {
     text-align: center;
     font-size: 40px; 
-    color: #333;
+    color: #ffffff;
     margin-bottom: 30px;
 }
 
@@ -180,24 +163,24 @@ h2 {
 }
 
 .card:hover .card-content {
-    background-color: rgba(0, 121, 107, 0.8);
+    background-color: rgba(196, 193, 193, 0.8);
 }
 
 .card-content h3 {
-    color: #333;
+    color: #000000;
     font-size: 28px; 
     margin-bottom: 10px;
 }
 
 .card-content p {
-    color: #524a4a;
+    color: #000000;
     font-size: 19.2px; 
     line-height: 1.5;
 }
 
 #gallery {
     text-align: center;
-    background-color: #f9f9f9;
+    background-color: #000000;
     padding: 50px 0;
 }
 
@@ -214,7 +197,7 @@ h2 {
     position: relative;
     overflow: hidden;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
     transition: transform 0.3s ease-in-out;
     margin-bottom: 20px;
     animation: gallery 20s linear infinite;
@@ -230,7 +213,7 @@ h2 {
     object-fit: cover;
     border-radius: 10px 10px 0 0;
     transition: opacity 0.3s ease;
-    box-shadow: 0 8px 16px rgba(173, 48, 48, 0.2);
+    box-shadow: 0 8px 16px rgba(189, 188, 188, 0.2);
 }
 
 .image-item:hover img {
@@ -242,8 +225,8 @@ h2 {
     bottom: 0;
     left: 0;
     width: 100%;
-    background-color: rgba(0, 121, 107, 0.8);
-    color: #fff;
+    background-color: rgba(226, 218, 218, 0.8);
+    color: #000000;
     padding: 10px;
     box-sizing: border-box;
     opacity: 0;
@@ -261,7 +244,7 @@ h2 {
 
 #about {
     text-align: center;
-    background-color: #f5f5f5;
+    background-color: #000000;
     padding: 50px 0;
 }
 
@@ -278,7 +261,7 @@ h2 {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    box-shadow: 5px 10px 8px 10px #0a984e;
+    box-shadow: 5px 10px 8px 10px #8f9e98;
     transition: transform 0.3s ease;
 }
 
@@ -293,29 +276,28 @@ h2 {
 }
 
 .description h3 {
-    color: #00796b;
+    color: #ffffff;
     font-size: 32px; 
     margin-bottom: 20px;
 }
 
 .description p {
-    color: #666;
+    color: #ffffff;
     font-size: 19.2px;
     line-height: 1.6;
     margin-bottom: 15px;
 }
-#about{background-image:
-    radial-gradient(circle at top right, #1aa707, rgb(255, 145, 0), #1aa707);
-      }
+
 #contact {
     text-align: center;
-    background-color: #f9f9f9;
+    
+    background-color: #111;
     padding: 50px 0;
 }
 
 .contact-form {
-     background-image:linear-gradient(green,black);
-     
+    
+     background-color: #111;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -345,8 +327,8 @@ textarea {
 }
 
 .submit-btn {
-    background-color: #00796b;
-    color: #fff;
+    background-color: #ffffff;
+    color: #000000;
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -356,10 +338,11 @@ textarea {
 }
 
 .submit-btn:hover {
-    background-color: #004d40;
+    background-color: #413963;
 }
 
 .contact-illustration img {
+    
     width: 100%;
     height: auto;
     border-radius: 10px;
@@ -389,7 +372,7 @@ footer div {
 }
 
 footer a {
-    color: #4caf50;
+    color: #5e5f5e;
     text-decoration: none;
     transition: color 0.3s ease;
 }
@@ -493,4 +476,3 @@ footer a:hover {
         50%{background-position:53% 100%}
         100%{background-position:48% 0%}
     }
-       
