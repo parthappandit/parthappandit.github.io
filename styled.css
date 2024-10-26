@@ -1,6 +1,7 @@
+
 .donate-content{
-    background-image: url(https://imgs.search.brave.com/Y6Hc74ww9vSpA_AjW_b5G3f9oBGXLPedGwfKO3ydCeM/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90My5m/dGNkbi5uZXQvanBn/LzAxLzkyLzY3LzE0/LzM2MF9GXzE5MjY3/MTQ5N19EcFNFbzdE/dWcyT292bGlGN0Vq/Y01Vb3Q3cDRzVWJ5/WS5qcGc);
-    background-color: rgb(168, 167, 165);
+    background-image: url(https://imgs.search.brave.com/cFtF14LFvU8aQl7q0SefoowLFDQaO2HTaNM9rSFutyw/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pbWFn/ZXMuY3RmYXNzZXRz/Lm5ldC9ocmx0eDEy/cGw4aHEvN0ZYNUJZ/M3J5YWtRV1JwdFBE/NDJhOS9kOGE4MTRm/NDhhNTE2NGJjNDAw/ZGYwNTZjZTQ0NDcw/MC8wX2hlcm9fdXBk/YXRlZC53ZWJwP2Zp/dD1maWxsJnc9NjAw/Jmg9MTIwMA);
+    background-color: rgb(0, 0, 0);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -11,17 +12,17 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     text-align: center;}
 
     .donate-head{
         font-weight: bold;
-    color: #000000;
+    color: #fffefe;
     font-size: 50px;
     }
     .action-button{
-         background-color: #000000;
-    color: hsl(0, 0%, 100%);
+         background-color: #ffffff;
+    color: hsl(0, 0%, 0%);
     padding: 10px 20px;
     border: none;
     border-radius: 5px;
@@ -38,14 +39,14 @@
     border-radius: 10px;
 }
 body {
+    background-color: black;
     margin: 0;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-
 nav {
-
+        display: flex;
         background-color: rgb(0, 0, 0);
         background-size: 800% 800%;
         padding: 18px;
@@ -54,22 +55,30 @@ nav {
         top: 0;
         width: 100%;
         z-index: 1000;
+       
     
 }
 
 nav a {
-   
+    
     font-weight: bold;
     color: #ffffff;
     text-decoration: none;
     padding: 10px 20px;
     font-size: 18px;
-    margin: 0 10px;
+    margin: 10px 20px;
+    padding: 12px;
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
-nav a:hover {
+.navi{
+    
+    width: 100%;
+    display: flexbox;
+    justify-content: center;
+}
+a.hov:hover {
+    
     border-radius: 100px 100px 100px 100px;
     background-color:rgba(27, 27, 27, 0.8);
 }
@@ -333,6 +342,7 @@ textarea {
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    
     font-size: 19.2px; 
     transition: background-color 0.3s ease;
 }
@@ -382,15 +392,17 @@ footer a:hover {
 }
 
 
+
 /* the below code provide the responsiveness to the website */
 
 @media screen and (max-width: 768px) {
-    nav {
+    /* .navi {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding: 0;
-    }
+        padding: 15;
+        width: 0;
+    } */
 
     nav a {
         margin: 5px 0;
@@ -408,6 +420,11 @@ footer a:hover {
     #home {
         background-size: contain;
     }
+    .donate-content{
+        background-size: contain;
+    }
+
+    
 }
 
 
@@ -426,12 +443,14 @@ footer a:hover {
 @media screen and (max-width: 768px) {
     .image-gallery {
         display: flex;
+        align-items: center;
         flex-direction: column;
         gap: 20px; 
     }
 
     .image-item {
-        width: 100%; 
+
+        width: 50%; 
     }
 
     .image-info {
@@ -452,18 +471,23 @@ footer a:hover {
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 868px) {
     .contact-form {
         flex-direction: column; 
         align-items: center; 
     }
 
     .form-fields {
-        width: 100%;
+        width: 50%;
+    }
+    .submit-btn{
+        width: 60%;
+        height: 10%;
     }
 
     .contact-illustration {
         margin-top: 20px; 
+        width: 50%;
     }
 }
     @-webkit-keyframes AnimationName {
@@ -476,3 +500,4 @@ footer a:hover {
         50%{background-position:53% 100%}
         100%{background-position:48% 0%}
     }
+       
